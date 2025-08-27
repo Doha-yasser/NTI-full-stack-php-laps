@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task js1</title>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <script>
+      let name = "Dina";
+      let gpa = 2.82;
+
+      let yourResult = function (name, gpa) {
+        return (
+          `Hello ${name} , you get ${gpa}\n` +
+          (gpa < 3 ? `Fail in Exam` : `success in Exam`)
+        );
+      };
+
+      console.log(yourResult("Reem", 3.1));
+      console.log(yourResult(name, gpa));
+    </script>
+  </body>
+</html>

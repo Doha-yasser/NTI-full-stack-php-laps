@@ -1,0 +1,6 @@
+# Ignore everything EXCEPT laps and images
+/*
+!/laps/
+!/images/
+!.gitignore
+!README.md
