@@ -2,9 +2,6 @@
     // commetnts:   # , // , /* */
     // echo 'Doha'
 
-  
-[]
-
 
 ?>
 
@@ -29,4 +26,5 @@
     <script></script>
   </body>
 </html>
+
 
